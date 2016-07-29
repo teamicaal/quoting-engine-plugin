@@ -30,6 +30,10 @@
     transform: translate(0, -25%);
   }
   &.in .icaal__modal-dialog { transform: translate(0, 0); }
+
+  iframe {
+    margin-bottom: 0;
+  }
 }
 .icaal__modal-open .icaal__modal {
   overflow-x: hidden;
@@ -40,6 +44,7 @@
 .icaal__modal-dialog {
   position: relative;
   width: auto;
+  max-width: $modal-width;
   margin: $modal-dialog-margin;
 }
 
@@ -116,17 +121,11 @@
 @media (min-width: 544px) {
   // Automatically set modal's width for larger viewports
   .icaal__modal-dialog {
-    max-width: $modal-md;
+    max-width: $modal-width;
     margin: $modal-dialog-sm-up-margin-y auto;
   }
 
   .icaal__modal-content {
     box-shadow: $modal-content-sm-up-box-shadow;
   }
-
-  .icaal__modal-sm { max-width: $modal-sm; }
-}
-
-@media (min-width: 992px) {
-  .icaal__modal-lg { max-width: $modal-lg; }
 }

@@ -50,6 +50,8 @@ button.icaal__close {
   .icaal__modal.in .icaal__modal-dialog {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0); }
+  .icaal__modal iframe {
+    margin-bottom: 0; }
 
 .icaal__modal-open .icaal__modal {
   overflow-x: hidden;
@@ -58,6 +60,7 @@ button.icaal__close {
 .icaal__modal-dialog {
   position: relative;
   width: auto;
+  max-width: 720px;
   margin: 10px; }
 
 .icaal__modal-content {
@@ -119,14 +122,8 @@ button.icaal__close {
 
 @media (min-width: 544px) {
   .icaal__modal-dialog {
-    max-width: 600px;
+    max-width: 720px;
     margin: 30px auto; }
   .icaal__modal-content {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
-  .icaal__modal-sm {
-    max-width: 300px; } }
-
-@media (min-width: 992px) {
-  .icaal__modal-lg {
-    max-width: 900px; } }
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); } }
 /*# sourceMappingURL=app.min.css.map */
