@@ -73,7 +73,7 @@ class Icaal_Quoting_Engine_Public {
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/icaal-quoting-engine-public.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'dist/css/app.min.css', array(), $this->version, 'all' );
 
 	}
 
@@ -96,7 +96,13 @@ class Icaal_Quoting_Engine_Public {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/icaal-quoting-engine-public.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'dist/js/app.min.js', array( 'jquery' ), $this->version, true );
+
+	}
+
+	public function include_html() {
+
+		include plugin_dir_path( __FILE__ ) . 'partials/modal.php';
 
 	}
 
