@@ -18,8 +18,6 @@ You will be able to open and close the popup using buttons.
 
 It will also change the popup to a redirect notice on small devices so that the quoting engine will open in a new tab.
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
-
 == Installation ==
 
 =Install the plugin using the following steps=
