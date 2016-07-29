@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       ICAAL Quoting Engine
  * Plugin URI:        http://www.icaal.co.uk/quoting-engine/
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Embed the ICAAL Quoting Engine within your site 
  * Version:           1.0.0
  * Author:            ICAAL
  * Author URI:        http://www.icaal.co.uk
