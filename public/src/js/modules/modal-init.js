@@ -2,15 +2,50 @@ jQuery(function($) {
 
   $('[data-toggle="quoting-engine"]').click(function() {
 
-
     // Setup variables
     var modal = $('#quoting-engine-modal'),
+        redirectModal = $('#quoting-engine-redirect-modal'),
+        body = $(modal).find('.icaal__modal-body'),
         iframe = $(this).attr('data-iframe'),
-        redirectWidth = $(this).attr('data-redirect-width');
+        iframeElement = '<iframe id="quote-engine" src="' + iframe + '" width="100%" height="" frameborder="0">',
+        redirectWidth = $(this).attr('data-redirect-width'),
+        windowWidth = $(window).width();
 
-    // Toggle modal
-    $(modal).icaal__modal('toggle');
+    // Check window width
+    if( windowWidth >= redirectWidth ) {
+
+      // Toggle modal
+      $(modal).icaal__modal('show');
+
+      // Check if already loaded
+      if( $(modal).data('engine') !== iframe ) {
+        $(modal).data('engine', iframe);
+        $(body).empty().append(iframeElement);
+      }
+
+    } else {
+
+      // Toggle modal
+      $(redirectModal).data('engine', iframe).icaal__modal('show');
+
+    }
+
+
+  });
+
+  $('[data-toggle="quoting-engine-redirect"]').click(function() {
+
+    var url = $(this).parents('.icaal__modal').data('engine');
+
+    window.open( url, '_blank' );
 
   });
 
 });
+
+var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+var eventer = window[eventMethod];
+var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+eventer(messageEvent,function(e) {
+  document.getElementById("quote-engine").height = e.data;
+},false);
