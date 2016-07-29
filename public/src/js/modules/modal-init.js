@@ -12,7 +12,7 @@ jQuery(function($) {
         windowWidth = $(window).width();
 
     // Check window width
-    if( windowWidth >= redirectWidth ) {
+    if( windowWidth >= redirectWidth || typeof redirectWidth == typeof undefined || redirectWidth == false ) {
 
       // Toggle modal
       $(modal).icaal__modal('show');
@@ -25,19 +25,10 @@ jQuery(function($) {
 
     } else {
 
-      // Toggle modal
-      $(redirectModal).data('engine', iframe).icaal__modal('show');
+      window.open( iframe, '_blank' );
 
     }
 
-
-  });
-
-  $('[data-toggle="quoting-engine-redirect"]').click(function() {
-
-    var url = $(this).parents('.icaal__modal').data('engine');
-
-    window.open( url, '_blank' );
 
   });
 
