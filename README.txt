@@ -12,9 +12,7 @@ Embed the ICAAL Quoting Engine within your site
 
 == Description ==
 
-This plugin will embed the ICAAL Quoting Engine within a popup on your site globally.
-
-You will be able to open and close the popup using buttons.
+This plugin will embed the ICAAL Quoting Engine within a popup on your site globally. You will be able to open and close the popup using buttons.
 
 It will also change the popup to a redirect notice on small devices so that the quoting engine will open in a new tab.
 
