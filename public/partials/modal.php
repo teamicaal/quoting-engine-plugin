@@ -17,7 +17,7 @@
         <h4 class="icaal__modal-title">Redirecting...</h4>
       </div>
       <div class="icaal__modal-body">
-        We are redirecting you to our quoting engine
+        Press continue to start your online quote
       </div>
       <div class="icaal__modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="icaal__modal">Close</button>
