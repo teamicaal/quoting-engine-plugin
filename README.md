@@ -15,8 +15,6 @@ You also have the option to display a redirect notice on small devices so that t
 
 ## Installation
 
-**Install the plugin using the following steps**
-
 1. Upload the `quoting-engine-plugin` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Create buttons throughout the website with the following attributes `data-toggle="quoting-engine"` and `data-iframe="{url}"` swapping `{url}` with the quoting engine URL
