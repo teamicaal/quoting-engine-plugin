@@ -1,1 +1,2 @@
-// @codekit-append "vendors/modal.js"
+// @codekit-append "modules/modal"
+// @codekit-append "modules/modal-init"
