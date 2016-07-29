@@ -4,7 +4,6 @@ jQuery(function($) {
 
     // Setup variables
     var modal = $('#quoting-engine-modal'),
-        redirectModal = $('#quoting-engine-redirect-modal'),
         body = $(modal).find('.icaal__modal-body'),
         iframe = $(this).attr('data-iframe'),
         iframeElement = '<iframe id="quote-engine" src="' + iframe + '" width="100%" height="" frameborder="0">',
