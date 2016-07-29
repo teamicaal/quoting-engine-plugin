@@ -22,7 +22,7 @@ It will also change the popup to a redirect notice on small devices so that the 
 
 =Install the plugin using the following steps=
 
-1. Upload `icaal-quoting-engine` folder to the `/wp-content/plugins/` directory
+1. Upload the `icaal-quoting-engine` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Configure the plugin by going to the Quoting Engine menu that appears under 'Settings' in the WordPress dashboard
 4. Create buttons throughout the website with the following attributes `data-toggle="quoting-engine"` and `data-iframe="{url}"` swapping `{url}` with the quoting engine URL
