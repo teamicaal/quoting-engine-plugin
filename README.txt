@@ -18,7 +18,7 @@ You also have the option to display a redirect notice on small devices so that t
 
 == Installation ==
 
-**Install the plugin using the following steps**
+= Install the plugin using the following steps =
 
 1. Upload the `quoting-engine-plugin` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
@@ -29,14 +29,14 @@ You also have the option to display a redirect notice on small devices so that t
 
 = 1.0.2 =
 
-## Improvements
+= Improvements =
 * **Better usability** - Allow `<a>` tags to trigger the popup
 
 Release Date: August 1st, 2016 
 
 = 1.0.1 =
 
-## Improvements
+= Improvements =
 * **Remove redirect modal** - if device is too small it will open the quoting engine in a new tab
 * **Better usability** - If the `data-redirect-width` attribute is null it will always load the popup
 
