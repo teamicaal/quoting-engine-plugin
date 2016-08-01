@@ -25,10 +25,6 @@ You also have the option to display a redirect notice on small devices so that t
 3. Create buttons throughout the website with the following attributes `data-toggle="quoting-engine"` and `data-iframe="{url}"` swapping `{url}` with the quoting engine URL
 4. To enable the redirect popup you can add the following attribute 'data-redirect-width="768"'
 
-== Screenshots ==
-
-1. This is a screenshot of the configured settings page
-
 == Changelog ==
 
 = 1.0.0 =
