@@ -1,6 +1,7 @@
 jQuery(function($) {
 
-  $('[data-toggle="quoting-engine"]').click(function() {
+  $('[data-toggle="quoting-engine"]').click(function(event) {
+    event.preventDefault();
 
     // Setup variables
     var modal = $('#quoting-engine-modal'),
