@@ -22,29 +22,29 @@ You also have the option to display a redirect notice on small devices so that t
 
 ## Changelog
 
-### 1.0.3 ###
+### 1.0.3
 
-## Improvements
+#### Improvements
 * **Easier integration** - Quoting engine will automatically open in new tab on devices `<768px`
 
 Release Date: August 2st, 2016
 
-### 1.0.2 ###
+### 1.0.2
 
-## Improvements
+#### Improvements
 * **Better usability** - Allow `<a>` tags to trigger the popup
 
 Release Date: August 1st, 2016 
 
-### 1.0.1 ###
+### 1.0.1
 
-## Improvements
+#### Improvements
 * **Remove redirect modal** - if device is too small it will open the quoting engine in a new tab
 * **Better usability** - If the `data-redirect-width` attribute is null it will always load the popup
 
 Release Date: August 1st, 2016 
 
-### 1.0.0 ###
+### 1.0.0
 
 Release Date: August 1st, 2016 
 
