@@ -11,6 +11,10 @@ jQuery(function($) {
         redirectWidth = $(this).attr('data-redirect-width'),
         windowWidth = $(window).width();
 
+    if( typeof redirectWidth == typeof undefined || redirectWidth == false ) {
+      redirectWidth = 768;
+    }
+
     // Check window width
     if( windowWidth >= redirectWidth || typeof redirectWidth == typeof undefined || redirectWidth == false ) {
 
