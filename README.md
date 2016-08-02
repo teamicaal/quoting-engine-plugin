@@ -27,6 +27,9 @@ You also have the option to display a redirect notice on small devices so that t
 #### Improvements
 * **Easier integration** - Quoting engine will automatically open in new tab on devices `<768px`
 
+#### Bugfixes
+* **Quoting engine resizing** - Changed the iframe ID as it was conflicting with pre existing engines
+
 Release Date: August 2st, 2016
 
 ### 1.0.2
