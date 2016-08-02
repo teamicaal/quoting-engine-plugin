@@ -7,7 +7,7 @@ jQuery(function($) {
     var modal = $('#quoting-engine-modal'),
         body = $(modal).find('.icaal__modal-body'),
         iframe = $(this).attr('data-iframe'),
-        iframeElement = '<iframe id="quote-engine" src="' + iframe + '" width="100%" height="" frameborder="0">',
+        iframeElement = '<iframe id="icaal__quote-engine" src="' + iframe + '" width="100%" height="" frameborder="0">',
         redirectWidth = $(this).attr('data-redirect-width'),
         windowWidth = $(window).width();
 
@@ -38,5 +38,5 @@ var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
 var eventer = window[eventMethod];
 var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
 eventer(messageEvent,function(e) {
-  document.getElementById("quote-engine").height = e.data;
+  document.getElementById("icaal__quote-engine").height = e.data;
 },false);
