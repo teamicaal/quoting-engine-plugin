@@ -18,7 +18,7 @@ You also have the option to display a redirect notice on small devices so that t
 1. Upload the `quoting-engine-plugin` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Create buttons throughout the website with the following attributes `data-toggle="quoting-engine"` and `data-iframe="{url}"` swapping `{url}` with the quoting engine URL
-4. To enable the redirect popup you can add the following attribute `data-redirect-width="768"`
+4. The quoting engine will automatically open in a new tab on devices `<768px` wide. To change the redirect width you can add the following attribute `data-redirect-width="768"`
 
 ## Changelog
 

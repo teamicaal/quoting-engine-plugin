@@ -82,8 +82,8 @@ button.icaal__close {
   background-color: #000; }
   .icaal__modal-backdrop.fade {
     opacity: 0; }
-  .icaal__modal-backdrop.in {
-    opacity: 0.5; }
+  .icaal__modal-backdrop.fade.in {
+    opacity: 0.75; }
 
 .icaal__modal-header {
   padding: 15px;
