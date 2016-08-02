@@ -32,6 +32,8 @@ You also have the option to display a redirect notice on small devices so that t
 = Improvements =
 * **Easier integration** - Quoting engine will automatically open in new tab on devices `<768px`
 
+Release Date: August 2st, 2016
+
 = 1.0.2 =
 
 = Improvements =
