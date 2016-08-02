@@ -72,7 +72,7 @@
 
   // Fade for backdrop
   &.fade { opacity: 0; }
-  &.in { opacity: $modal-backdrop-opacity; }
+  &.fade.in { opacity: $modal-backdrop-opacity; }
 }
 
 // Modal header
