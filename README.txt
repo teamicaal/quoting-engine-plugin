@@ -4,7 +4,7 @@ Donate link: http://www.icaal.co.uk
 Tags: ICAAL, Internet Consultants and Associates, ICAAL Quoting Engine, Quoting Engine, Double Glazing Quote
 Requires at least: 4.5
 Tested up to: 4.5
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,11 @@ You also have the option to display a redirect notice on small devices so that t
 4. The quoting engine will automatically open in a new tab on devices `<768px` wide. To change the redirect width you can add the following attribute `data-redirect-width="768"`
 
 == Changelog ==
+
+= 1.0.4 =
+
+= Improvements =
+* **Events** - Updated to work with the new quoting engine custom events and send analytics events
 
 = 1.0.3 =
 

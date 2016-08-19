@@ -22,6 +22,11 @@ You also have the option to display a redirect notice on small devices so that t
 
 ## Changelog
 
+### 1.0.4
+
+#### Improvements
+* **Events** - Updated to work with the new quoting engine custom events and send analytics events
+
 ### 1.0.3
 
 #### Improvements
