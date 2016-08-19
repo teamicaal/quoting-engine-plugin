@@ -14,13 +14,13 @@ jQuery(function($) {
     if( origin === 'https://app.quotingengine.co.uk' ) {
       switch( message ) {
         case 'quoteStart':
-          console.log('Quote Started');
+          quoteStart();
         break;
         case 'quotePostcodeEnter':
-          console.log('Quote Postcode Entered');
+          quotePostcodeEnter();
         break;
         case 'quoteComplete':
-          console.log('Quote Completed');
+          quoteComplete();
         break;
       }
 
