@@ -16,6 +16,9 @@ jQuery(function($) {
         case 'quoteStart':
           console.log('Quote Started');
         break;
+        case 'quotePostcodeEnter':
+          console.log('Quote Postcode Entered');
+        break;
         case 'quoteComplete':
           console.log('Quote Completed');
         break;
