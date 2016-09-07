@@ -12,7 +12,7 @@ jQuery(function($) {
         windowWidth = $(window).width();
 
     if( typeof redirectWidth == typeof undefined || redirectWidth == false ) {
-      redirectWidth = 768;
+      redirectWidth = 0;
     }
 
     // Check window width
