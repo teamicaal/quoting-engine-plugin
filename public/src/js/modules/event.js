@@ -25,7 +25,7 @@ jQuery(function($) {
       }
 
       if( message.hasOwnProperty('height') ) {
-        $("#icaal__quote-engine").height(e.data);
+        $("#icaal__quote-engine").height(message.height);
       }
       
     }
