@@ -5,7 +5,7 @@ jQuery(function($) {
   var eventer = window[eventMethod];
   var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
   eventer(messageEvent,function(e) {
-    document.getElementById("icaal__quote-engine").height = e.data;
+    $("#icaal__quote-engine").height(e.data);
   },false);
 
   function quotingEngineMessage(event) {
@@ -25,7 +25,7 @@ jQuery(function($) {
       }
 
       if( message.hasOwnProperty('height') ) {
-        document.getElementById('icaal__quote-engine').height = message.height;
+        $("#icaal__quote-engine").height(e.data);
       }
       
     }
