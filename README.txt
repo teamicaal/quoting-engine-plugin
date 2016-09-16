@@ -4,7 +4,7 @@ Donate link: http://www.icaal.co.uk
 Tags: ICAAL, Internet Consultants and Associates, ICAAL Quoting Engine, Quoting Engine, Double Glazing Quote
 Requires at least: 4.5
 Tested up to: 4.6
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
