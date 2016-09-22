@@ -32,40 +32,40 @@ jQuery(function($) {
   }
   window.addEventListener( 'message', quotingEngineMessage, false );
   
-  function quoteStart() {
-
-    if( typeof ga == 'function' ) {
-      ga( 'send', 'event', 'Quoting Engine', 'Start Quote' );
-    }
-
-    if( typeof __gaTracker == 'function' ) {
-      __gaTracker( 'send', 'event', 'Quoting Engine', 'Start Quote' );
-    }
-
-  }
-
-  function quotePostcodeEnter() {
-
-    if( typeof ga == 'function' ) {
-      ga( 'send', 'event', 'Quoting Engine', 'Enter Postcode' );
-    }
-
-    if( typeof __gaTracker == 'function' ) {
-      __gaTracker( 'send', 'event', 'Quoting Engine', 'Enter Postcode' );
-    }
-
-  }
-
-  function quoteComplete() {
-
-    if( typeof ga == 'function' ) {
-      ga( 'send', 'event', 'Quoting Engine', 'Complete Quote' );
-    }
-
-    if( typeof __gaTracker == 'function' ) {
-      __gaTracker( 'send', 'event', 'Quoting Engine', 'Complete Quote' );
-    }
-
-  }
-  
 });
+  
+function quoteStart() {
+
+  if( typeof ga == 'function' ) {
+    ga( 'send', 'event', 'Quoting Engine', 'Start Quote' );
+  }
+
+  if( typeof __gaTracker == 'function' ) {
+    __gaTracker( 'send', 'event', 'Quoting Engine', 'Start Quote' );
+  }
+
+}
+
+function quotePostcodeEnter() {
+
+  if( typeof ga == 'function' ) {
+    ga( 'send', 'event', 'Quoting Engine', 'Enter Postcode' );
+  }
+
+  if( typeof __gaTracker == 'function' ) {
+    __gaTracker( 'send', 'event', 'Quoting Engine', 'Enter Postcode' );
+  }
+
+}
+
+function quoteComplete() {
+
+  if( typeof ga == 'function' ) {
+    ga( 'send', 'event', 'Quoting Engine', 'Complete Quote' );
+  }
+
+  if( typeof __gaTracker == 'function' ) {
+    __gaTracker( 'send', 'event', 'Quoting Engine', 'Complete Quote' );
+  }
+
+}
