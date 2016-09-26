@@ -22,6 +22,11 @@ You also have the option to display a redirect notice on small devices so that t
 
 ## Changelog
 
+### 1.0.6
+
+#### Bugfixes
+* **Origins** - Accept events from quoting-engine.co.uk
+
 ### 1.0.5
 
 #### Bugfixes
