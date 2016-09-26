@@ -11,7 +11,7 @@ jQuery(function($) {
   function quotingEngineMessage(event) {
     var message = event.data;
     var origin = event.origin;
-    if( origin === 'https://app.quotingengine.co.uk' ) {
+    if( origin.includes('quotingengine.co.uk') || origin.includes('quoting-engine.co.uk')  ) {
       switch( message ) {
         case 'quoteStart':
           quoteStart();
