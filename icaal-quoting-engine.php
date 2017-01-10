@@ -16,9 +16,9 @@
  * Plugin Name:       ICAAL Quoting Engine
  * Plugin URI:        http://www.icaal.co.uk/quoting-engine/
  * Description:       Embed the ICAAL Quoting Engine within your site 
- * Version:           1.0.7
+ * Version:           1.1.0
  * Author:            ICAAL
- * Author URI:        http://www.icaal.co.uk
+ * Author URI:        https://www.icaal.co.uk
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       icaal-quoting-engine

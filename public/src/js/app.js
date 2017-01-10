@@ -1,4 +1,3 @@
-// @codekit-append "util/util"
-// @codekit-append "modules/modal"
+// @codekit-append "vendor/remodal"
 // @codekit-append "modules/modal-init"
 // @codekit-append "modules/event"

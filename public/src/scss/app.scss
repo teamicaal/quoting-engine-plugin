@@ -4,4 +4,7 @@
 @import "base/reboot";
 
 @import "modules/close";
-@import "modules/modal";
+// @import "modules/modal";
+
+@import "vendor/remodal";
+@import "vendor/remodal-default-theme";

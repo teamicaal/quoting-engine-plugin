@@ -5,6 +5,7 @@ jQuery(function($) {
 
     // Setup variables
     var modal = $('#quoting-engine-modal'),
+        modalInst = $(modal).remodal();
         body = $(modal).find('.icaal__modal-body'),
         iframe = $(this).attr('data-iframe'),
         iframeElement = '<iframe id="icaal__quote-engine" src="' + iframe + '" width="100%" height="" frameborder="0">',
@@ -19,7 +20,7 @@ jQuery(function($) {
     if( windowWidth >= redirectWidth || typeof redirectWidth == typeof undefined || redirectWidth == false ) {
 
       // Toggle modal
-      $(modal).icaal__modal('show');
+      modalInst.open();
 
       // Check if already loaded
       if( $(modal).data('engine') !== iframe ) {

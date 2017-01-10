@@ -22,6 +22,11 @@ You also have the option to display a redirect notice on small devices so that t
 
 ## Changelog
 
+### 1.1.0
+
+#### Improvements
+* **Modal** - Replace bootstrap model for the remodal library
+
 ### 1.0.6
 
 #### Bugfixes
